@@ -14,11 +14,7 @@ Analyse de données de santé publique sur le VIH/SIDA en République du Congo, 
 - [Données](#données)
 - [Méthodologie](#méthodologie)
 - [Structure du projet](#structure-du-projet)
-- [Installation](#installation)
-- [Utilisation](#utilisation)
 - [Visualisations](#visualisations)
-- [Résultats](#résultats)
-- [Technologies](#technologies)
 - [Auteurs](#auteurs)
 
 ---
@@ -151,3 +147,23 @@ Le travail s’appuie sur une approche de **santé publique / épidémiologie de
 - **Filtre `sex == 'both'`** : indicateurs globaux (ART, incidence, mortalité).
 - **Filtre `male` / `female`** : analyse de genre.
 - **Groupes d’âge détaillés** : structure par tranche d’âge.
+
+---
+
+## Structure du projet
+
+```text
+Project_hiv_Congo_Evolution/
+│
+├── README.md
+│
+├── Dataset/
+│
+│   └── Donnees_congo.csv           # données nettoyées et enrichies
+│
+├── Scripts/
+│   ├── EVAL_GP8.ipynb
+│
+│
+└── outputs/
+    ├── figures/                    # graphiques exportés

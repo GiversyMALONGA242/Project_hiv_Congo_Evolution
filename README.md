@@ -96,7 +96,7 @@ Ces trois piliers structurent l’ensemble des indicateurs analysés dans ce pro
 
 | Domaine | Indicateurs sources | Méthode | Tendance |
 |---|---|---|---|
-| Prévalence du VIH | `hiv_0000000001`, `anc_testing`, `hiv_prevalence` | Moyenne annuelle | `testing_trend` |
+| Prévalence du VIH | `hiv_0000000001`, `anc_testing`, `hiv_prevalence` | Moyenne annuelle | `preva_trend` |
 | Dépistage et statut sérologique | `hiv_statusknownhiv`, `anc_testing`, `number_plhiv_knowledge_of_status` | Moyenne annuelle | `testing_trend` |
 | Couverture ART | `percent_plwh`, `hiv_artcoverage` | Moyenne annuelle (`sex == both`) | `art_trend` |
 | Nouvelles infections | `new_infections`, `hiv_0000000026` | Somme annuelle | `incidence_trend` |

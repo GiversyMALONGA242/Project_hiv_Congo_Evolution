@@ -86,4 +86,4 @@ La série d’études présente une baisse globale de la prévalence depuis le d
 
 ## VII. Annexes
 
-![Analyse multi-indicateurs de l’évolution du VIH au Congo (1990–2025)](rapport_assets/annexe-graphiques.png)
+![Analyse multi-indicateurs de l’évolution du VIH au Congo (1990–2025)](resultats.png)

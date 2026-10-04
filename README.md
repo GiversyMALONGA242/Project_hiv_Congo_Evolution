@@ -85,9 +85,9 @@ Le cadre 95-95-95 guide l’interprétation et les recommandations, mais les gra
 
 ### Indicateurs épidémiologiques
 
-- Prévalence du VIH chez les **15–49 ans**.
+- Prévalence du VIH .
 - Nombre annuel de nouvelles infections et de décès liés au sida.
-- Nombre de PVVIH selon le sexe chez les **15–49 ans**.
+- Nombre de PVVIH selon le sexe.
 - Nombre de PVVIH dans les groupes **0–14, 15–24 et 15–49 ans**.
 
 ### Indicateurs calculés dans le projet
@@ -96,12 +96,12 @@ Toutes les lignes ci-dessous utilisent `source_org == 'unaids'`. Les données so
 
 | Domaine | Code source | Unité | Population retenue | Variable de sortie |
 |---|---|---|---|---|
-| Prévalence | `hiv_prevalence` | `percent` | 15–49 ans, `sex == 'both'` | `preva_trend` |
+| Prévalence | `hiv_prevalence` | `percent` | `sex == 'both'` | `preva_trend` |
 | Connaissance du statut | `number_plhiv_knowledge_of_status` | `count` | Tous âges, `sex == 'both'` | `testing_trend` |
 | Couverture ARV | `percent_plwh` | `percent` | Tous âges, `sex == 'both'` | `arv_trend` |
 | Nouvelles infections | `new_infections` | `count` | Tous âges, `sex == 'both'` | `incidence_trend` |
 | Décès liés au sida | `aids_deaths` | `count` | Tous âges, `sex == 'both'` | `deaths_trend` |
-| Répartition par sexe | `plwh` | `count` | 15–49 ans, femmes et hommes séparément | `gender_trend` |
+| Répartition par sexe | `plwh` | `count` | femmes et hommes séparément | `gender_trend` |
 | Répartition par âge | `plwh` | `count` | 0–14, 15–24, 15–49 ans ; `sex == 'both'` | `age_trend` |
 
 **Attention :** les valeurs en unité `percent` sont déjà exprimées en pourcentage. Il ne faut pas les multiplier à nouveau par 100. Les **15–24 ans sont inclus dans les 15–49 ans** : ces effectifs ne doivent pas être additionnés.

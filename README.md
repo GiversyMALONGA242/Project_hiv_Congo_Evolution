@@ -1,4 +1,4 @@
-# Évolution de l’infection à VIH en République du Congo (1990–2025)
+# Évolution de l’épidemie à VIH en République du Congo (1990–2025)
 
 Analyse de données de santé publique sur le VIH/SIDA en République du Congo, à partir de sources internationales (ONUSIDA, OMS), avec Python et des visualisations.
 

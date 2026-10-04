@@ -160,7 +160,7 @@ Le travail suit une démarche d’**analyse exploratoire et d’épidémiologie 
 - **Pas de cumul OMS–ONUSIDA** : deux sources décrivant la même population ne sont pas deux populations à additionner.
 - **Pas de double comptage** : les lignes nationales ne sont pas additionnées à leurs sous-groupes.
 - **Pas de moyenne simple des couvertures par âge** : la couverture nationale est sélectionnée directement avec `age_group == 'all'` et `sex == 'both'`.
-- **Analyse par sexe** : les femmes et les hommes sont comparés chez les 15–49 ans uniquement.
+- **Analyse par sexe** : les femmes et les hommes.
 - **Analyse par âge** : un seul indicateur, `plwh`, est utilisé, sans lui ajouter les nouvelles infections.
 - **Données absentes** : une année manquante ne signifie pas que la valeur est nulle.
 
@@ -190,17 +190,16 @@ Project_hiv_Congo_Evolution/
 
 Le tableau de bord rassemble les sept graphiques suivants :
 
-1. Prévalence du VIH chez les 15–49 ans.
+1. Prévalence du VIH.
 2. Nombre de PVVIH connaissant leur statut sérologique.
 3. Couverture du traitement ARV parmi toutes les PVVIH.
 4. Nombre annuel de nouvelles infections.
 5. Nombre annuel de décès liés au sida.
-6. Nombre de PVVIH chez les 15–49 ans selon le sexe.
+6. Nombre de PVVIH selon le sexe.
 7. Nombre de PVVIH par groupe d’âge, avec des catégories non additionnables.
 
 ![Analyse multi-indicateurs de l’évolution du VIH au Congo (1990–2025)](resultats.png)
 
-> **Précisions de lecture :** le libellé « Moyenne de Personnes CSS » encore présent dans le code de visualisation désigne désormais un **effectif national**, et non une moyenne. La prévalence est en **% chez les 15–49 ans** et le graphique par sexe porte également sur les **15–49 ans**. Les effectifs par âge ne mesurent pas directement le risque individuel d’infection.
 
 L’interprétation détaillée et les recommandations figurent dans le rapport, plutôt que dans ce document de présentation du projet.
 
@@ -226,10 +225,6 @@ Utiliser Python avec Jupyter Notebook ou Google Colab. Les bibliothèques import
 ```bash
 pip install pandas numpy seaborn matplotlib
 ```
-
-### Reproduire le nettoyage depuis les données brutes
-
-Le notebook attend `hiv_global_timeseries.csv` dans son répertoire de travail. Ce fichier **n’est pas fourni dans le dépôt** : il doit être obtenu avant d’exécuter l’intégralité du pipeline initial. Vérifier aussi le chemin de sortie lors de l’export du CSV nettoyé.
 
 ### Reproduire les calculs à partir du CSV disponible
 

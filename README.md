@@ -15,7 +15,6 @@ Analyse de données de santé publique sur le VIH/SIDA en République du Congo, 
 - [Méthodologie](#méthodologie)
 - [Structure du projet](#structure-du-projet)
 - [Visualisations](#visualisations)
-- [Auteurs](#auteurs)
 
 ---
 

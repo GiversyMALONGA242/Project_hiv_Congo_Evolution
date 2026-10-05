@@ -81,7 +81,7 @@ Depuis `Scripts/`, utiliser `../Dataset/Donnees_congo.csv`. Exécuter ensuite le
 ## Membres du Groupe 8
 
 - **MALONGA MBOUITY Giversy Deliche** — Lead
-- **M’PIKA Emmanuelle** — Dr
+- **M’PIKA Emmanuelle**
 - **M’BIELO-LIBEAU Davis Junior**
-- **MANDAKA MARIMPORI Edouarda**
+- **MARIMPORI MANDAKA Edouarda**
 - **AZIDAMA Belvine**

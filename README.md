@@ -45,7 +45,7 @@ Project_hiv_Congo_Evolution/
 
 ![Analyse multi-indicateurs du VIH au Congo](resultats.png)
 
-- **[Rapport d’analyse actualisé — Word](Rapport%20D%27analyse%20des%20donn%C3%A9es%20de%20VIH%201990-2025.docx)** : résultats, recommandations et limites.
+- **[Rapport d’analyse — Word](Rapport%20D%27analyse%20des%20donn%C3%A9es%20de%20VIH%201990-2025.docx)** : résultats, recommandations et limites.
 - [Plan du groupe](Documents/GROUPE%208%20PLAN.pdf).
 - Rapports d’avancement : [Jour 2](Documents/Rapport_J2.pdf) et [Jour 3](Documents/Rapport_jour3.pdf).
 - [Notebook](Scripts/EVAL_GP8.ipynb) et [script Python](Scripts/eval_gp8.py).

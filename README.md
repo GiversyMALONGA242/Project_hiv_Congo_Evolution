@@ -85,3 +85,6 @@ Depuis `Scripts/`, utiliser `../Dataset/Donnees_congo.csv`. Exécuter ensuite le
 - **M’BIELO-LIBEAU Davis Junior**
 - **MARIMPORI MANDAKA Edouarda**
 - **AZIDAMA Belvine**
+
+## Source de données
+ [Kaggle]([Scripts/EVAL_GP8.ipynb](https://www.kaggle.com/datasets/suphakinthiwong/global-hiv-aids-time-series-who-unaids-worldbank?select=README.md))

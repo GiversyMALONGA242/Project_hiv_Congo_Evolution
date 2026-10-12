@@ -72,7 +72,7 @@ Depuis `Scripts/`, utiliser `../Dataset/Donnees_congo.csv`. Exécuter ensuite le
 
 ## Limites et précautions
 
-- La suppression virale n’est pas disponible : la cascade **95-95-95** n’est pas entièrement évaluée.
+- La suppression de la charge virale n’est pas disponible : la cascade **95-95-95** n’est pas entièrement évaluée.
 - Le diagnostic est présenté en effectif ; la couverture ARV globale n’est pas le deuxième 95.
 - Les séries de diagnostic et de traitement ne couvrent pas toute la période.
 - Les 15–24 ans sont inclus dans les 15–49 ans : **ne pas additionner ces groupes**. Les adolescents de 10–19 ans ne sont pas isolés.
